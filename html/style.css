@@ -17,6 +17,7 @@ section {
 	-webkit-box-shadow: 3px 3px 8px 2px rgba(204, 204, 204, 0.507);
 	box-shadow: 3px 3px 8px 2px rgba(204, 204, 204, 0.493);
 }
+
 body {
 	place-items: center;
 }
@@ -36,6 +37,7 @@ img {
 	border-radius: 15px;
 	-moz-box-shadow: 3px 3px 8px 2px rgba(204, 204, 204, 0.486);
 	-webkit-box-shadow: 3px 3px 8px 2px rgba(204, 204, 204, 0.507);
+	-o-box-shadow: 3px 3px 8px 2px rgba(204, 204, 204, 0.507);
 	box-shadow: 3px 3px 8px 2px rgba(204, 204, 204, 0.493);
 }
 footer {
@@ -44,14 +46,27 @@ footer {
 }
 .hero-title {
 	text-align: center;
+	font-size: 50px;
 }
 .hero-sub-title {
 	text-align: center;
 	color: rgb(155, 155, 155);
+	margin-top: -30px;
 }
 .info {
 	text-align: center;
 }
 section .dot {
 	color: rgb(155, 155, 155);
+}
+.form {
+	margin-top: 20px;
+}
+.form-title {
+	font-size: 20px;
+	margin-bottom: 10px;
+}
+.form-button{
+	background-color: rgb(3, 153, 190);
+	color: white; 
 }
